@@ -1,3 +1,7 @@
+body {
+    font-family: 'Kufam', cursive;
+    margin: 0;
+}
 main {
     padding-top: 32px;
 }
@@ -26,15 +30,17 @@ main {
 }
 
 .package__subtitle {
-    color: #979797;
+    color: white;
 }
 
 .package__info {
     padding: 16px;
-    border: 1px solid #0e4f1f;
+    border: 1px solid #133696;
     font-size: 20px;
     color: #0e4f1f;
     background: white;
+    border-radius: 10px;
+    
 }
 
 .clearfix {
@@ -43,14 +49,16 @@ main {
 
 #plus {
     background: #ff1b68;
+    border-radius: 10px;
 }
 
 #free {
-    background: rgba(234, 252, 237, 0.95);
+    background: #ff1b68;
     float: right;
     border-right: none;
-    border-left: 4px solid #0e4f1f;
+    border-left: 4px solid  #133696;
     text-align: right;
+    border-radius: 10px;
 }
 
 #free:hover,
@@ -59,7 +67,9 @@ main {
 }
 
 #premium {
-    background: rgba(14, 79, 31, 0.95);
+    background: #06143a;
+    border-radius: 10px;
+
 }
 
 #premium .package__title {
@@ -67,5 +77,5 @@ main {
 }
 
 #premium .package__subtitle {
-    color: #bbb;
+    color: white;
 }
