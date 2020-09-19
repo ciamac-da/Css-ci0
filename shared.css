@@ -37,12 +37,14 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: white;
     margin-bottom: 10px;
 }
 
 .main-nav__item {
     display: inline-block;
     margin: 0 16px;
+    color: white;
 }
 
 .main-nav__item a {
