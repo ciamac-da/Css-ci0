@@ -10,7 +10,7 @@
 }
 
 .section-title {
-    color: #2ddf5c;
+    color: #1a4c8d;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .plan {
-    background: #d5ffdc;
+    background: #1a4c8d;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -35,25 +35,25 @@
 }
 
 .plan--highlighted {
-    background: #19b84c;
+    background: #06143a;
     color: white;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
     background: white;
-    color: #19b84c;
+    color: #ff1b68;
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
 .plan__title {
-    color: #0e4f1f;
+    color: #ff1b68;
 }
 
 .plan__price {
-    color: #858585;
+    color: #ff1b68 !important;
 }
 
 .plan--highlighted .plan__title {
@@ -68,6 +68,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .plan__feature {
@@ -75,7 +76,7 @@
 }
 
 #key-features {
-    background: #ff1b68;
+    background: #1a4c8d;
     margin-top: 80px;
     padding: 16px;
 }
@@ -99,7 +100,7 @@
 }
 
 .key-feature__image {
-    background: #ffcede;
+    background: #ff1b68;
     width: 128px;
     height: 128px;
     border: 2px solid #424242;
@@ -114,7 +115,5 @@
     font-size: 20px;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
-
+h3 {
+color: white;} 

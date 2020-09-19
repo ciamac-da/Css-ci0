@@ -9,7 +9,7 @@ body {
 
 .main-header {
     width: 100%;
-    background: #2ddf5c;
+    background: #133696;
     padding: 8px 16px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .main-header__brand {
-    color: #0e4f1f;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
@@ -36,6 +36,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-bottom: 10px;
 }
 
 .main-nav__item {
@@ -45,7 +46,7 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: #0e4f1f;
+    color: white;
     font-weight: bold;
     padding: 3px 0;
 }
@@ -99,10 +100,10 @@ body {
 }
 
 .button {
-    background: #0e4f1f;
+    background: #ff1b68;
     color: white;
     font: inherit;
-    border: 1.5px solid #0e4f1f;
+    border: 1.5px solid white;
     padding: 8px;
     border-radius: 8px;
     font-weight: bold;
@@ -112,7 +113,7 @@ body {
 .button:hover,
 .button:active {
     background: white;
-    color: #0e4f1f;
+    color: #ff1b68;
 }
 
 .button:focus {
